@@ -1,0 +1,92 @@
+.some-page-wrapper {
+    margin: 60px;
+    
+  }
+
+  .flexbox-item {
+    width: 200px;
+    margin: 10px;
+    
+  }
+  
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: space-between;
+  }
+
+  .second-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    
+  }
+
+  .third-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .fourth-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  
+
+
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1
+  }
+  
+  .orange-column {
+    background-color: orange;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+      
+  }
+  
+  
+  
+  .green-column-1 {
+    background-color: green;
+    height: 100px;
+    border: 1px solid black;
+    align-self: flex-start;
+    
+  }
+
+  .green-column-2 {
+    background-color: green;
+    height: 100px;
+    border: 1px solid black;
+    align-self: flex-end;
+  }
+
+  .blue-column {
+    background-color: blue;
+    height: 100px;
+    border: 1px solid black;
+    justify-content: flex-end;
+  }
+
+  .red-column {
+    background-color:red;
+    height: 100px;
+    border: 1px solid black;
+    justify-content: space-between;
+  }
+  
+  
